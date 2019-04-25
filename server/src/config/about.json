@@ -1,0 +1,30 @@
+{
+    "services": [{
+    "name": "Twitter",
+    "widgets": [{
+        "name": "FollowerCount",
+        "description": "Affiche le nombre d'abonnés d'un youtuber.",
+        "params": [{
+            "name": "screen_name",
+            "type": "string"
+        }]
+    }, {
+        "name": "LastTweet",
+        "description": "Affiche le derniers tweet d'un utilisateur",
+        "params": [{
+            "name": "screen_name",
+            "type": "string"
+        }]
+    }]
+}, {
+    "name": "Weather",
+    "widgets": [{
+        "name": "LocalWeather",
+        "description": "Affiche la météo d'une ville.",
+        "params": [{
+            "name": "cityName",
+            "type": "string"
+        }]
+    }]
+}]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The Backend for Dashboard project",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "lint": "./node_modules/.bin/eslint '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "eslint-plugin-vue": "^5.2.2",
+    "event-stream": "^4.0.1",
+    "express": "^4.16.4",
+    "joi": "^14.0.4",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "sequelize": "^4.41.1",
+    "sqlite3": "^4.0.3",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
